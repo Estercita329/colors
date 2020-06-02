@@ -13,4 +13,9 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
   });
+  
+  $(".clickable").click(function() {
+    $(".flashCardFront").toggle();
+    $(".flashCardBack").toggle();
+  });
 });
